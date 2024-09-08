@@ -1,0 +1,31 @@
+/* Dashboard.css */
+.dashboard-container {
+  padding: 2em;
+}
+
+.dashboard-container h1 {
+  color: #007bff;
+}
+
+form input {
+  padding: 0.5em;
+  margin-right: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 1em;
+}
+
+ul li {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+ul li:hover {
+  transform: translateY(-2px);
+}
